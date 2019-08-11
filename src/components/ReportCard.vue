@@ -332,8 +332,8 @@ export default {
             pdf.setFontSize(20);
             pdf.setFontType("normal");
             pdf.textAlign(_string, {
-                align: "right"
-            }, lineWidth + 15, _y);
+                align: "left"
+            }, lineWidth + 40, _y);
 
             _y += vspace + lineHeight;
 
@@ -350,8 +350,8 @@ export default {
             pdf.setFontSize(20);
             pdf.setFontType("normal");
             pdf.textAlign(_string, {
-                align: "right"
-            }, _x + lineWidth + 15, _y);
+                align: "left"
+            }, _x + lineWidth + 40, _y);
 
             _y += vspace + lineHeight;
           var header= [
@@ -361,7 +361,7 @@ export default {
             ['1','Mathematics',this.courses.math.score,this.courses.math.grade ],
             ['2','English',this.courses.eng.score,this.courses.eng.grade ],
             ['3','Biology',this.courses.bio.score,this.courses.bio.grade ],
-            ['4','CHemistry',this.courses.chem.score,this.courses.chem.grade ],
+            ['4','Chemistry',this.courses.chem.score,this.courses.chem.grade ],
           ];
             
                 pdf.autoTable({startX:10, startY:_y, head: header, body: body});
