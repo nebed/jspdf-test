@@ -366,7 +366,6 @@ export default {
             
                 pdf.autoTable({startX:10, startY:_y, head: header, body: body});
                 pdf.save(this.student_name +"'s" + ' Score Report' + '.pdf');
-          alert('the report has been saved');
       }
 
   },

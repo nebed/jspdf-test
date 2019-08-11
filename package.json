@@ -10,6 +10,7 @@
   "dependencies": {
     "bulma": "^0.7.5",
     "core-js": "^2.6.5",
+    "express": "^4.17.1",
     "jspdf": "^1.5.3",
     "jspdf-autotable": "^3.2.2",
     "node-sass": "^4.12.0",
