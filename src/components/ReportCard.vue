@@ -333,7 +333,7 @@ export default {
             pdf.setFontType("normal");
             pdf.textAlign(_string, {
                 align: "left"
-            }, lineWidth + 40, _y);
+            }, lineWidth + 90, _y);
 
             _y += vspace + lineHeight;
 
@@ -351,7 +351,7 @@ export default {
             pdf.setFontType("normal");
             pdf.textAlign(_string, {
                 align: "left"
-            }, _x + lineWidth + 40, _y);
+            }, _x + lineWidth + 90, _y);
 
             _y += vspace + lineHeight;
           var header= [
