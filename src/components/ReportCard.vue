@@ -332,7 +332,7 @@ export default {
             pdf.setFontSize(20);
             pdf.setFontType("normal");
             pdf.textAlign(_string, {
-                align: "left"
+                align: "right"
             }, lineWidth + 15, _y);
 
             _y += vspace + lineHeight;
@@ -350,7 +350,7 @@ export default {
             pdf.setFontSize(20);
             pdf.setFontType("normal");
             pdf.textAlign(_string, {
-                align: "left"
+                align: "right"
             }, _x + lineWidth + 15, _y);
 
             _y += vspace + lineHeight;
